@@ -15,8 +15,8 @@ const encrypt=require('./encrypt_file');
 const HDWalletProvider = require("truffle-hdwallet-provider");
 const Web3= require('web3');
 const provider = new HDWalletProvider(
-	"ready coach undo color cinnamon memory broccoli soldier mask custom silver tree",
-	"https://rinkeby.infura.io/v3/697df8dac2394171baba7d7f514c05ce"
+	"<Enter your seed Phrase>",
+	"<Enter Your Infura link>"
 );
 const web3 = new Web3(provider);
 const Factory= require('../Decentralized/ethereum/build/Factory');
@@ -25,7 +25,7 @@ const cors= require('cors');
 
 const factoryInstance = new web3.eth.Contract(
   JSON.parse(Factory.interface),
-  '0xB086B0DF85c22E5797D7eB9Ff812D6Ea6b437204'
+  '<Enter Deployed contract address>'
 );
 
 const os = require('os');
