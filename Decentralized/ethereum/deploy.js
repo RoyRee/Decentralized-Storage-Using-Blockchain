@@ -3,8 +3,8 @@ const Web3 = require("web3");
 const compiledFactory = require("./build/Factory.json");
 
 const provider = new HDWalletProvider(
-	"ready coach undo color cinnamon memory broccoli soldier mask custom silver tree",
-	"https://rinkeby.infura.io/v3/697df8dac2394171baba7d7f514c05ce"
+	"<Enter Your seed Phrase>",
+	"<Enter our rinkeby Link>"
 );
 
 const web3 = new Web3(provider);
