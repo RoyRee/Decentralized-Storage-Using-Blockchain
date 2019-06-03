@@ -8,7 +8,7 @@ if(typeof window !== 'undefined' && typeof window.web3 !== 'undefined'){
 }else{
 
 	const provider = new Web3.providers.HttpProvider(
-		'https://rinkeby.infura.io/v3/697df8dac2394171baba7d7f514c05ce'
+		'<Enter Your Infura Link>'
 		);
 
 	web3 = new Web3(provider);
